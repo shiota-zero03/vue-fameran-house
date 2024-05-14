@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins&display=swap');
+
+.poetsen-one {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.auth-cover{
+    background-image: url('../images/background-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.gradient-text-label-auth {
+    background: linear-gradient(to right, #ac0000, #363891);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+/* header {
+    position: relative;
+    background-color: blue;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), /* Lapisan gelap */
+        /* url('../images/background-top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; */
+/* } */
